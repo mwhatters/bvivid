@@ -93,6 +93,8 @@ h1 {
 
 /*CONTACT*/
 
+
+
 form {
   width: 375px;
   margin: auto auto;
@@ -100,6 +102,12 @@ form {
 
 #contact {
   margin-bottom: 2em;
+}
+
+#contact h3 {
+  width: 75%;
+  text-align: center;
+  margin: 20px auto 3em auto;
 }
 
 /*FOOTER*/
