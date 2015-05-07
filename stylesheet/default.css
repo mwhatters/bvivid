@@ -1,0 +1,122 @@
+/*overrides*/
+
+body { padding-top: 70px; }
+
+.navbar-brand {
+  margin-top: 10px;
+}
+
+.jumbotron .container h1 {
+  margin-top: 1em;
+  text-align: center;
+  font-family: courier;
+}
+
+h1 {
+  text-align: center;
+}
+
+#top {
+  height: 0px;
+}
+
+.breadcrumb {
+  margin-top: 10px;
+  float: right;
+  background-color: inherit;
+}
+
+.breadcrumb li {
+  margin-right: 1em;
+  padding-top: 5px;
+  font-family: Arial;
+}
+
+.jumbotron .container h1 {
+  margin-top: 3em;
+}
+
+.jumbotron .container p {
+  width: 75%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.jumbotron .container {
+  margin-top: 10em;
+  margin-bottom: 15em;
+}
+
+.centered {
+  text-align: center;
+}
+
+.jumbotron {
+  width: 100%;
+  background-color: pink;
+  text-align: center;
+}
+
+#quote {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width: 75%;
+  text-align: center;
+  background-color:
+}
+
+/*SERVICES*/
+
+#services {
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+#services h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.col-md-4 {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+/*CLIENTS*/
+
+#clients {
+  background-color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/*CONTACT*/
+
+form {
+  width: 375px;
+  margin: auto auto;
+}
+
+#contact {
+  margin-bottom: 2em;
+}
+
+/*FOOTER*/
+
+.footer {
+  height: 90px;
+  margin-top: 6em;
+  background-color: orange;
+}
+
+.footer .text-muted {
+  margin-top: 30px;
+  font-size: 1em;
+}
+
+#footer span {
+  text-align: center;
+  margin: 5%;
+  display: inline;
+}
