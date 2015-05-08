@@ -2,6 +2,8 @@
 
 body { padding-top: 70px; }
 
+/*NAVIGATION BAR*/
+
 .navbar-brand {
   height: 60px;
   margin-top: 13px;
@@ -9,7 +11,26 @@ body { padding-top: 70px; }
 
 .navbar-toggle {
   margin-top: 1.4em;
+  border-radius: 0px;
 }
+
+.breadcrumb {
+  margin-top: 15px;
+  float: right;
+  background-color: inherit;
+}
+
+.breadcrumb li {
+  margin-right: 1em;
+  padding-top: 5px;
+  font-family: courier;
+}
+
+.breadcrumb>li+li:before {
+  content: none;
+}
+
+/*CALL TO ACTION*/
 
 .jumbotron {
   margin-bottom: 0px;
@@ -27,22 +48,6 @@ h1 {
 
 #top {
   height: 0px;
-}
-
-.breadcrumb {
-  margin-top: 15px;
-  float: right;
-  background-color: inherit;
-}
-
-.breadcrumb li {
-  margin-right: 1em;
-  padding-top: 5px;
-  font-family: Arial;
-}
-
-.breadcrumb>li+li:before {
-  content: none;
 }
 
 .jumbotron .container h1 {
@@ -68,14 +73,6 @@ h1 {
   width: 100%;
   background-color: pink;
   text-align: center;
-}
-
-#quote {
-  margin-top: 5em;
-  margin-bottom: 5em;
-  width: 75%;
-  text-align: center;
-  background-color:
 }
 
 /*CAROUSEL*/
@@ -104,12 +101,28 @@ h1 {
     margin-top: 20px;
 }
 
+.carousel-control.left {
+  background-image: none;
+}
+
+.carousel-control.right {
+  background-image: none;
+}
+
 
 /*SERVICES*/
 
 #services {
   padding-bottom: 7em;
   padding-top: 8em;
+  background-color: lightblue;
+  width: 100%;
+}
+
+/*servicesimg*/
+#services .row {
+  width: 85%;
+  margin: auto;
 }
 
 #services h1 {
@@ -126,16 +139,29 @@ h1 {
 
 
 
-/*CLIENTS*/
 
-#clients {
-  padding: 9em;
-  background-color: lightgray;
-}
+
+
 
 /*QUOTE*/
 
-/*ANOTHER SECTION*/
+#quote {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width: 75%;
+}
+
+.quoteanchor .jumbotron {
+  background-color: orange;
+}
+
+/*CLIENTS*/
+
+#clients {
+  padding-top: 8em;
+  padding-bottom: 8em;
+  background-color: lightgray;
+}
 
 .pleft {
   text-align: left;
@@ -144,23 +170,20 @@ h1 {
 }
 
 .pright {
+  float: right;
   text-align: right;
   width: 75%;
-  float: right;
   margin-bottom: 2em;
 }
 
 
 /*CONTACT*/
 
-form {
-  width: 500px;
-  margin: auto auto;
-}
-
 #contact {
-  margin-bottom: 2em;
-  margin-top: 7em;
+  padding-bottom: 7em;
+  padding-top: 7em;
+  background-color: green;
+  width: 100%;
 }
 
 #contact h3 {
@@ -169,11 +192,16 @@ form {
   margin: 20px auto 3em auto;
 }
 
+form {
+  width: 500px;
+  margin: auto auto;
+}
+
 #inlineform {
   margin-bottom: 10px;
   display: inline;
   border-radius: 0px;
-  /*box-shadow: 1px 1px 1px #888888*/
+  box-shadow: 1px 1px 1px #888888
 }
 
 .inlineleft {
@@ -195,7 +223,6 @@ form {
 
 .footer {
   height: 90px;
-  margin-top: 6em;
   background-color: orange;
 }
 
@@ -206,12 +233,14 @@ form {
 }
 
 /*MOBILE*/
+
 @media screen and (max-width: 520px) {
   form {
     width: 100%;
   }
 }
 
+/*M CLIENTS*/
 @media screen and (max-width: 750px) {
   .pleft {
   text-align: left;
