@@ -83,6 +83,10 @@ h1 {
   text-align: center;
 }
 
+/*CAROUSEL*/
+
+
+
 /*CLIENTS*/
 
 #clients {
@@ -93,10 +97,8 @@ h1 {
 
 /*CONTACT*/
 
-
-
 form {
-  width: 375px;
+  width: 500px;
   margin: auto auto;
 }
 
@@ -108,6 +110,28 @@ form {
   width: 75%;
   text-align: center;
   margin: 20px auto 3em auto;
+}
+
+#inlineform {
+  margin-bottom: 10px;
+  display: inline;
+  border-radius: 0px;
+  /*box-shadow: 1px 1px 1px #888888*/
+}
+
+.inlineleft {
+  width: 48%;
+  float: left;
+}
+
+.inlineright {
+  float: right;
+  width: 50%;
+}
+
+#message {
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 /*FOOTER*/
@@ -127,4 +151,11 @@ form {
   text-align: center;
   margin: 5%;
   display: inline;
+}
+
+/*MOBILE*/
+@media screen and (max-width: 520px) {
+  form {
+    width: 100%;
+  }
 }
