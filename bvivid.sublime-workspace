@@ -4,24 +4,60 @@
 		"selected_items":
 		[
 			[
-				"ca",
-				"calories"
+				"margin",
+				"margin-right"
 			],
 			[
-				"margin",
+				"pad",
+				"padding-right"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"ca",
+				"carousel-inner"
+			],
+			[
+				"mar",
 				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"inline",
+				"inline"
 			],
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"marg",
-				"margin-bottom"
-			],
-			[
-				"border",
-				"border-top"
 			],
 			[
 				"text",
@@ -32,16 +68,8 @@
 				"margin-bottom"
 			],
 			[
-				"mar",
-				"margin-top"
-			],
-			[
 				"magin",
 				"margin-top"
-			],
-			[
-				"pad",
-				"padding-top"
 			],
 			[
 				"check",
@@ -196,10 +224,6 @@
 				"random_num"
 			],
 			[
-				"in",
-				"integer"
-			],
-			[
 				"string",
 				"string_number"
 			],
@@ -234,10 +258,6 @@
 			[
 				"ban",
 				"background-color"
-			],
-			[
-				"padding",
-				"padding-top"
 			],
 			[
 				"bakgroun",
@@ -292,10 +312,6 @@
 				"width"
 			],
 			[
-				"bor",
-				"border"
-			],
-			[
 				"di",
 				"display"
 			],
@@ -320,10 +336,6 @@
 				"position"
 			],
 			[
-				"inline",
-				"inline-block"
-			],
-			[
 				"marin",
 				"margin-left"
 			],
@@ -338,10 +350,6 @@
 			[
 				"cont",
 				"contactInfo"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"border-r",
@@ -506,14 +514,6 @@
 			[
 				"three",
 				"three"
-			],
-			[
-				"collatz",
-				"collatzSequence"
-			],
-			[
-				"lambda",
-				"lambdanumber"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10090,
+				"buffer_size": 11063,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +531,15 @@
 			"file": "stylesheet/default.css",
 			"settings":
 			{
-				"buffer_size": 1535,
+				"buffer_size": 2792,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scripts/default.js",
+			"settings":
+			{
+				"buffer_size": 512,
 				"line_ending": "Unix"
 			}
 		}
@@ -588,6 +596,7 @@
 	},
 	"file_history":
 	[
+		"/Users/MHatters/Programming/git-projects/csi-generator/csi-gen.rb",
 		"/Users/MHatters/.bash_profile",
 		"/Users/MHatters/Programming/DevBootcamp/Phase-0/Unit-1/mwhatters.github.io/index.html",
 		"/Users/MHatters/Programming/DevBootcamp/Phase-0/Unit-1/mwhatters.github.io/blog/t5-ruby-classes.html",
@@ -609,7 +618,6 @@
 		"/Users/MHatters/Programming/DevBootcamp/Phase-0/Unit-2/phase-0-unit-2/week-5/bingo-solo-challenge/my_solution.rb",
 		"/Users/MHatters/Programming/DevBootcamp/Phase-0/Unit-2/phase-0-unit-2/week-5/guessing-game/my_solution.rb",
 		"/Users/MHatters/Programming/DevBootcamp/Phase-0/Unit-2/phase-0-unit-2/week-5/nested-data-structures/my_solution.rb",
-		"/Users/MHatters/Programming/git-projects/csi-generator/csi-gen.rb",
 		"/Users/MHatters/Programming/DevBootcamp/Phase-0/Unit-2/phase-0-unit-2/week-5/attr/release_4.rb",
 		"/Users/MHatters/Programming/DevBootcamp/Phase-0/Unit-2/phase-0-unit-2/week-5/attr/my_solution.rb",
 		"/Users/MHatters/Programming/DevBootcamp/Phase-0/Unit-2/phase-0-unit-2/week-4/die-class/my_solution.rb",
@@ -734,6 +742,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";\n",
 			"<a class=\"menuButton\" href=\"../index.html#bottom\">CULTURE</a>",
 			"<a class=\"menuButton\" href=\"./index.html#bottom\">CULTURE</a>",
 			"<a class=\"menuButton\" href=\"../projects\">PROJECTS</a>",
@@ -804,7 +813,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -812,15 +821,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 10090,
+						"buffer_size": 11063,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10090,
-								10090
+								10465,
+								10465
 							]
 						],
 						"settings":
@@ -830,7 +839,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2983.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -840,15 +849,15 @@
 					"file": "stylesheet/default.css",
 					"settings":
 					{
-						"buffer_size": 1535,
+						"buffer_size": 2792,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13,
-								13
+								1627,
+								1627
 							]
 						],
 						"settings":
@@ -858,7 +867,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1411.0,
+						"translation.y": 2117.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scripts/default.js",
+					"settings":
+					{
+						"buffer_size": 512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
