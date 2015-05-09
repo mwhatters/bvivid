@@ -1,12 +1,21 @@
 /*overrides*/
 
 body { padding-top: 70px; }
+p {
+  margin-bottom: 0px;
+}
 
 /*NAVIGATION BAR*/
 
 .navbar-brand {
   height: 60px;
   margin-top: 13px;
+}
+
+.navbar-default {
+  background-color: rgba(255,255,255,0.7);
+  height: 70px;
+  border-bottom: 0px;
 }
 
 .navbar-toggle {
@@ -37,7 +46,6 @@ body { padding-top: 70px; }
 }
 
 .jumbotron .container h1 {
-  margin-top: 1em;
   text-align: center;
   font-family: courier;
 }
@@ -51,7 +59,7 @@ h1 {
 }
 
 .jumbotron .container h1 {
-  margin-top: 3em;
+  margin-bottom: 0.4em;
 }
 
 .jumbotron .container p {
@@ -62,16 +70,27 @@ h1 {
 
 .jumbotron .container {
   margin-top: 10em;
-  margin-bottom: 25em;
+  margin-bottom: 35em;
 }
 
 .centered {
   text-align: center;
 }
 
+/*POST INTRO BLURB*/
+
+.postintro {
+  text-align: center;
+}
+
 .jumbotron {
   width: 100%;
-  background-color: pink;
+  background-image: url("../imgs/actioncomp.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top;
   text-align: center;
 }
 
@@ -137,7 +156,13 @@ h1 {
   text-align: center;
 }
 
+.row hr {
+  width: 40%;
+}
 
+.row p {
+  font-size: 0.9em;
+}
 
 
 
@@ -151,45 +176,88 @@ h1 {
   width: 75%;
 }
 
-.quoteanchor .jumbotron {
+.quoteanchor.container {
   background-color: orange;
+}
+
+.quoteanchor {
+  text-align: center;
+}
+
+.quote1 {
+  margin-bottom: 5em;
+}
+
+.quoteanchor p {
+  font-style: italic;
+  margin-top: 2em;
+}
+
+/*THE TEAM*/
+
+#theteam {
+  padding-top: 5em;
+  padding-bottom: 6em;
+  background-color: lightgray;
+}
+
+.pleft {
+  text-align: center;
+  margin-bottom: 8em;
+  width: 40%;
+  float: left;
+}
+
+.pright {
+  text-align: center;
+  margin-bottom: 2em;
+  width: 40%;
+  float: right;
+}
+
+#theteam h1 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+#theteam p {
+  margin-bottom: 1em;
+}
+
+#theteam h2 {
+  margin-bottom: 1.5em;
 }
 
 /*CLIENTS*/
 
 #clients {
-  padding-top: 8em;
-  padding-bottom: 8em;
-  background-color: lightgray;
+  background-color: yellow;
+  text-align: center;
 }
 
-.pleft {
-  text-align: left;
-  margin-bottom: 5em;
-  width: 75%;
+#clients h2 {
+  width: 100%
 }
 
-.pright {
-  float: right;
-  text-align: right;
-  width: 75%;
-  margin-bottom: 2em;
-}
+
 
 
 /*CONTACT*/
 
 #contact {
-  padding-bottom: 7em;
+  padding-bottom: 3em;
   padding-top: 7em;
   background-color: green;
   width: 100%;
+  text-align: center;
 }
 
-#contact h3 {
-  width: 75%;
-  text-align: center;
-  margin: 20px auto 3em auto;
+#contact p {
+
+}
+
+#contact h1 {
+  margin: 0 auto 1em auto;
 }
 
 form {
@@ -219,10 +287,14 @@ form {
   margin-bottom: 10px;
 }
 
+.blurb {
+  margin-bottom: 1.6em;
+}
+
 /*FOOTER*/
 
 .footer {
-  height: 90px;
+  height: 130px;
   background-color: orange;
 }
 
@@ -230,6 +302,12 @@ form {
   margin-top: 25px;
   font-size: 2em;
   text-align: center
+}
+
+footer p {
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 0.8em;
 }
 
 /*MOBILE*/
