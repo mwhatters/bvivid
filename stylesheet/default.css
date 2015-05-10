@@ -1,15 +1,47 @@
 /*overrides*/
 
 body { padding-top: 70px; }
+
 p {
   margin-bottom: 0px;
+  font-family: 'Gudea', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 1em;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+h2 {
+   font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+ font-family: 'Gudea', sans-serif;
 }
 
 /*NAVIGATION BAR*/
 
 .navbar-brand {
-  height: 60px;
-  margin-top: 13px;
+  height: 70px;
+  width: 70px;
+}
+
+.navbar-brand img {
+  position: relative;
+  bottom: 17px;
+  opacity: 0.8;
+  -webkit-transition: all 500ms ease;
+  -moz-transition:    all 500ms ease;
+  -o-transition:      all 500ms ease;
+  transition:         all 500ms ease;
+}
+
+.navbar-brand img:hover {
+  opacity: 0.5;
 }
 
 .navbar-default {
@@ -31,12 +63,31 @@ p {
 .breadcrumb li {
   margin-right: 1em;
   padding-top: 5px;
-  font-family: courier;
+  font-family: 'Raleway', sans-serif;
 }
 
 .breadcrumb>li+li:before {
   content: none;
 }
+
+
+/*MENU TEXT*/
+
+li a {
+  color: black;
+}
+
+li a:hover, li a:focus {
+  opacity: 0.9;
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+}
+
+
+
+
+
 
 /*CALL TO ACTION*/
 
@@ -47,15 +98,7 @@ p {
 
 .jumbotron .container h1 {
   text-align: center;
-  font-family: courier;
-}
-
-h1 {
-  text-align: center;
-}
-
-#top {
-  height: 0px;
+  font-family: arial;
 }
 
 .jumbotron .container h1 {
@@ -69,7 +112,7 @@ h1 {
 }
 
 .jumbotron .container {
-  margin-top: 6em;
+  margin-top: 7em;
   margin-bottom: 0em;
 }
 
@@ -89,9 +132,42 @@ h1 {
   text-align: center;
 }
 
-.btn-primary {
+
+/*BUTTONS*/
+
+
+.btn-primary, .btn-default {
+  background-color: #B2A49E;
+  color: black;
   margin-bottom: 20em;
+  border-radius: 0px;
+  border: 2px #B2A49E solid;
+  width: 200px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition:    all 500ms ease;
+  -o-transition:      all 500ms ease;
+  transition:         all 500ms ease;
 }
+
+.btn-default {
+  margin: 0;
+}
+
+.btn-primary:hover, .btn-default:hover {
+  border: 2px #B2A49E solid;
+  color: white;
+  background: rgba(0,0,0,0)
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+  background: rgba(0,0,0,0);
+  color: white;
+  border: 2px #B2A49E solid;
+}
+
+
+
 
 /*POST INTRO BLURB*/
 
@@ -109,6 +185,7 @@ h1 {
 
 #actionquote {
   margin-bottom: 2em;
+  margin-top: 3em;
 }
 
 
@@ -118,6 +195,7 @@ h1 {
 /*fonts*/
 .carouselcontainer h1, .carousel-mobile h1 {
   color: black;
+  margin: 0 auto;
 }
 
 #myCarousel h3, .carousel-mobile h3 {
@@ -260,12 +338,6 @@ h1 {
   margin: auto;
 }
 
-#services h1 {
-  text-align: center;
-  font-size: 3em;
-  margin-bottom: 1em;
-}
-
 .col-md-4 {
   margin-bottom: 2em;
   margin-top: 3em;
@@ -277,7 +349,10 @@ h1 {
 }
 
 .row p {
-  font-size: 0.9em;
+  font-size: 1em;
+  width: 90%;
+  text-align: center;
+  margin: auto auto;
 }
 
 
@@ -289,12 +364,17 @@ h1 {
 /*fonts*/
 #theteam h1 {
   color: black;
+  text-align: center;
+  margin-bottom: 1em;
 }
 #theteam h2 {
   color: black;
+  margin-bottom: 1.5em;
 }
 #theteam p {
-  color: lightgray;
+  color: gray;
+  margin-bottom: 1em;
+
 }
 
 /**/
@@ -318,18 +398,6 @@ h1 {
   float: right;
 }
 
-#theteam h1 {
-  text-align: center;
-  margin-bottom: 2em;
-}
-
-#theteam p {
-  margin-bottom: 1em;
-}
-
-#theteam h2 {
-  margin-bottom: 1.5em;
-}
 
 
 
@@ -374,10 +442,6 @@ h1 {
 
 
 
-
-
-
-
 /*CLIENTS*/
 
 #client img:hover {
@@ -410,6 +474,7 @@ h1 {
 
 #contact p {
   color:white;
+  font-size: 1.3em;
 }
 
 #contact {
@@ -461,13 +526,13 @@ form {
 /*FOOTER*/
 
 .footer {
-  height: 130px;
+  height: 110px;
   background-color: #F8F8F8;
   box-shadow: 1px 1px 1px #888888;
 }
 
 .footer .text-muted {
-  margin-top: 25px;
+  margin-top: 10px;
   font-size: 2em;
   text-align: center
 }
@@ -516,7 +581,7 @@ footer p {
 
   .carousel-mobile {
     display: block;
-    background-image: url("../imgs/designs/moulin.png");
+    background-image: url("../imgs/designs/whitediamond.png");
 
   }
 
