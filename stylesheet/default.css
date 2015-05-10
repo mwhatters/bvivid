@@ -5,13 +5,16 @@ body { padding-top: 70px; }
 p {
   margin-bottom: 0px;
   font-family: 'Gudea', sans-serif;
+  font-size: 1.1em;
 }
 
 h1 {
   text-align: center;
   font-size: 3em;
   margin-bottom: 1em;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 900;
+  letter-spacing: 0.03em;
 }
 
 
@@ -137,16 +140,19 @@ li a:hover, li a:focus {
 
 
 .btn-primary, .btn-default {
-  background-color: #B2A49E;
-  color: black;
+  background-color: #466774;
+  color: lightgray;
   margin-bottom: 20em;
   border-radius: 0px;
-  border: 2px #B2A49E solid;
+  border: 2px #466774 solid;
   width: 200px;
   -webkit-transition: all 500ms ease;
   -moz-transition:    all 500ms ease;
   -o-transition:      all 500ms ease;
   transition:         all 500ms ease;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.05em;
+  font-weight: 300;
 }
 
 .btn-default {
@@ -154,7 +160,7 @@ li a:hover, li a:focus {
 }
 
 .btn-primary:hover, .btn-default:hover {
-  border: 2px #B2A49E solid;
+  border: 2px #466774 solid;
   color: white;
   background: rgba(0,0,0,0)
 }
@@ -163,7 +169,7 @@ li a:hover, li a:focus {
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
   background: rgba(0,0,0,0);
   color: white;
-  border: 2px #B2A49E solid;
+  border: 2px #466774 solid;
 }
 
 
@@ -199,7 +205,8 @@ li a:hover, li a:focus {
 }
 
 #myCarousel h3, .carousel-mobile h3 {
-  color: black;
+  color: #466774;
+  font-size: 2.2em;
 }
 
 #myCarousel p, .carousel-mobile p {
@@ -208,14 +215,18 @@ li a:hover, li a:focus {
 
 /**/
 
-
+.glyphicon {
+  color: #466774;
+  font-size: 2.3em !important;
+  font-weight: 300;
+}
 
 .carouselcontainer {
   padding: 5em 3em;
   /*background-image: url("../imgs/designs/moulin.png");*/
   min-width: 1000px;
   /*background-color: #1A2B39;*/
-  background-image: url("../imgs/designs/whitediamond.png");
+  background-image: url("../imgs/designs/browndiamond.png");
 }
 
 #myCarousel {
@@ -287,6 +298,10 @@ li a:hover, li a:focus {
   padding: 0 4em;
 }
 
+.carousel-mobile h1 {
+  margin-bottom: 1em;
+}
+
 .carousel-mobile hr {
   width: 25%;
   text-align: center;
@@ -303,6 +318,8 @@ li a:hover, li a:focus {
 
 
 
+
+
 /*SERVICES*/
 
 /*fonts*/
@@ -310,12 +327,9 @@ li a:hover, li a:focus {
   color: white;
 }
 
-#services h2 {
-  color: white;
-}
-
 #services p {
-  color: white;
+  color: black;
+  font-size: 1.1 em;
 }
 
 /**/
@@ -349,7 +363,6 @@ li a:hover, li a:focus {
 }
 
 .row p {
-  font-size: 1em;
   width: 90%;
   text-align: center;
   margin: auto auto;
@@ -372,9 +385,9 @@ li a:hover, li a:focus {
   margin-bottom: 1.5em;
 }
 #theteam p {
-  color: gray;
+  color: #071B2B;
   margin-bottom: 1em;
-
+  font-weight: 900;
 }
 
 /**/
@@ -383,7 +396,7 @@ li a:hover, li a:focus {
   padding-top: 5em;
   padding-bottom: 6em;
   /*background-image: url("../imgs/designs/moulin.png");*/
-  background-image: url("../imgs/designs/whitediamond.png");
+  background-image: url("../imgs/designs/browndiamond.png");
 }
 .pleft {
   text-align: left;
@@ -449,7 +462,7 @@ li a:hover, li a:focus {
 }
 
 #clients {
-  background-image: url("../imgs/designs/whitediamond.png");
+  background-image: url("../imgs/designs/browndiamond.png");
   text-align: center;
 }
 
@@ -475,6 +488,8 @@ li a:hover, li a:focus {
 #contact p {
   color:white;
   font-size: 1.3em;
+  width: 40%;
+  margin: 0 auto;
 }
 
 #contact {
@@ -488,6 +503,7 @@ li a:hover, li a:focus {
   background-position: top;
   width: 100%;
   text-align: center;
+  font-family: 'Gudea', sans-serif;
 }
 
 
@@ -550,11 +566,26 @@ footer p {
 
 /*MOBILE*/
 
+@media screen and (max-width: 450px) {
+
+.breadcrumb {
+  padding-left: 0;
+}
+.breadcrumb li {
+  margin-right: 0.6em;
+  font-size: 0.8em;
+}
+}
+
+
 @media screen and (max-width: 520px) {
   form {
     width: 100%;
   }
 }
+
+
+
 
 /*M CAROUSEL*/
 
@@ -608,5 +639,9 @@ footer p {
 
   .postintro {
     width: 100%
+  }
+
+    #contact p {
+    width: 90%;
   }
 }
