@@ -11,10 +11,10 @@ p {
 h1 {
   text-align: center;
   font-size: 3em;
-  margin-bottom: 1em;
   font-family: 'Playfair Display SC', serif;
   font-weight: 900;
   letter-spacing: 0.03em;
+  opacity: 0.8;
 }
 
 
@@ -24,6 +24,21 @@ h2 {
 
 h3 {
  font-family: 'Gudea', sans-serif;
+}
+
+.hrbrown, .hrblue {
+  margin-top: 0;
+  margin-bottom: 1em;
+  width: 200px;
+  opacity: 0.5;
+}
+
+.hrbrown {
+  border-top: 1px solid #ECDBCA;
+}
+
+.hrblue {
+  border-top: 1px solid #466774;
 }
 
 /*NAVIGATION BAR*/
@@ -201,12 +216,13 @@ li a:hover, li a:focus {
 /*fonts*/
 .carouselcontainer h1, .carousel-mobile h1 {
   color: black;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+
 }
 
 #myCarousel h3, .carousel-mobile h3 {
   color: #466774;
-  font-size: 2.2em;
+  font-size: 2.5em;
 }
 
 #myCarousel p, .carousel-mobile p {
@@ -239,7 +255,7 @@ li a:hover, li a:focus {
     text-align: center;
     height: 300px;
     background-color: inherit;
-    margin-top: 4em;
+    margin-top: 1em;
     min-width: 600px;
 }
 
@@ -261,7 +277,7 @@ li a:hover, li a:focus {
   width: 400px;
   height: auto;
   float: right;
-  top: 20px;
+  padding-left: 0;
 }
 
 
@@ -332,6 +348,10 @@ li a:hover, li a:focus {
   font-size: 1.1 em;
 }
 
+#services h3 {
+  color: #ECDBCA;
+}
+
 /**/
 
 #services {
@@ -358,10 +378,6 @@ li a:hover, li a:focus {
   text-align: center;
 }
 
-.row hr, hr {
-  width: 40%;
-}
-
 .row p {
   width: 90%;
   text-align: center;
@@ -378,10 +394,15 @@ li a:hover, li a:focus {
 #theteam h1 {
   color: black;
   text-align: center;
-  margin-bottom: 1em;
+  /*margin-bottom: 1em;*/
 }
+
+#theteam hr {
+  margin-bottom: 3em;
+}
+
 #theteam h2 {
-  color: black;
+  color: #466774;
   margin-bottom: 1.5em;
 }
 #theteam p {
@@ -463,23 +484,24 @@ li a:hover, li a:focus {
 }
 
 #clients h2 {
-  width: 100%
+  width: 100%;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 900;
 }
 
 .thumb {
-  margin: 0;
-  padding: 0;
   border: none;
+  margin-bottom: 0;
 }
 
 .thumbnail {
-  margin-bottom: 0;
+  margin-bottom: 5px;
   border: none;
-  padding: 0;
   -webkit-transition: all 300ms ease;
   -moz-transition:    all 300ms ease;
   -o-transition:      all 300ms ease;
   transition:         all 300ms ease;
+  background-color: transparent;
 }
 
 .thumbnail:hover {
