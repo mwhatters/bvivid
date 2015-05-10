@@ -256,6 +256,7 @@ li a:hover, li a:focus {
     height: 300px;
     background-color: inherit;
     margin-top: 1em;
+    margin-bottom: 4em;
     min-width: 600px;
 }
 
@@ -310,13 +311,13 @@ li a:hover, li a:focus {
   padding-bottom: 60px;
 }
 
-.carousel-mobile p, .carousel-mobile h3 {
+.carousel-mobile p {
   padding: 0 4em;
 }
 
-.carousel-mobile h1 {
+/*.carousel-mobile h1 {
   margin-bottom: 1em;
-}
+}*/
 
 .carousel-mobile hr {
   width: 25%;
@@ -350,6 +351,8 @@ li a:hover, li a:focus {
 
 #services h3 {
   color: #ECDBCA;
+  font-weight: 900;
+  letter-spacing: 0.03em;
 }
 
 /**/
@@ -408,7 +411,6 @@ li a:hover, li a:focus {
 #theteam p {
   color: #071B2B;
   margin-bottom: 1em;
-  font-weight: 900;
 }
 
 /**/
@@ -645,7 +647,7 @@ footer p {
 
   .carousel-mobile {
     display: block;
-    background-image: url("../imgs/designs/whitediamond.png");
+    background-image: url("../imgs/designs/browndiamond.png");
 
   }
 
@@ -657,15 +659,15 @@ footer p {
   .pleft {
   text-align: left;
   margin-bottom: 5em;
-  width: 100%;
+  width: 95%;
 }
 .pright {
   text-align: right;
-  width: 100%;
+  width: 95%;
   margin-bottom: 2em;
 }
   #clients {
-    padding: 4em 2em;
+    padding: 0em 2em;
     width: 100%;
     background-color: lightgray;
   }
