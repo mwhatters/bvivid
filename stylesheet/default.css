@@ -13,8 +13,6 @@ p {
 }
 
 .navbar-default {
-/*  background-color: rgba(255,255,255,0.7);
-  height: 70px;*/
   border-bottom: 0px;
   box-shadow: 2px 2px 2px #888888;
 }
@@ -44,6 +42,7 @@ p {
 
 .jumbotron {
   margin-bottom: 0px;
+  color: white;
 }
 
 .jumbotron .container h1 {
@@ -70,23 +69,18 @@ h1 {
 }
 
 .jumbotron .container {
-  margin-top: 10em;
-  margin-bottom: 35em;
+  margin-top: 6em;
+  margin-bottom: 0em;
 }
 
 .centered {
   text-align: center;
 }
 
-/*POST INTRO BLURB*/
-
-.postintro {
-  text-align: center;
-}
-
 .jumbotron {
   width: 100%;
-  background-image: url("../imgs/actioncomp.jpg");
+  padding-bottom: 0;
+  background-image: url("../imgs/actioncomp2.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -95,25 +89,58 @@ h1 {
   text-align: center;
 }
 
+.btn-primary {
+  margin-bottom: 20em;
+}
+
+/*POST INTRO BLURB*/
+
+#servicesanchor {
+  position: absolute;
+
+  bottom: 5em;
+  height: 0;
+}
+
+.postintro p {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#actionquote {
+  margin-bottom: 2em;
+}
+
+
+
 /*CAROUSEL*/
+
+/*fonts*/
+.carouselcontainer h1, .carousel-mobile h1 {
+  color: white;
+}
+
+#myCarousel h3, .carousel-mobile h3 {
+  color: white;
+}
+
+#myCarousel p, .carousel-mobile p {
+  color: white;
+}
+
+/**/
+
+
 
 .carouselcontainer {
   padding: 5em 3em;
-  background-color: gray !important;
+  background-image: url("../imgs/designs/moulin.png");
   min-width: 1000px;
 }
 
 #myCarousel {
   margin: 0 auto;
-  max-width: 1300px;
-}
-
-.carouselcontainer h2 {
-    margin: 0;
-    color: #666;
-    padding-top: 90px;
-    font-size: 52px;
-    font-family: "trebuchet ms", sans-serif;
+  max-width: 1100px;
 }
 
 .item{
@@ -121,7 +148,7 @@ h1 {
     text-align: center;
     height: 300px;
     background-color: inherit;
-    margin-top: 5em;
+    margin-top: 4em;
     min-width: 600px;
 }
 
@@ -143,16 +170,17 @@ h1 {
   width: 400px;
   height: auto;
   float: right;
+  top: 20px;
 }
-
 
 
 .col-sm-5 {
   text-align: left;
-  width: 40%;
-  margin: auto 0;
+  width: 35%;
+  margin: auto 0 auto 3em;
   min-width: 200px;
-  padding: 0 0 0 10px;
+  padding: 0 0 0 0px;
+  bottom: 20px;
 }
 
 .carousel{
@@ -166,22 +194,61 @@ h1 {
   margin: auto;
 }
 
-/*.carousel-control.left {
-  margin-left: 5em;
+/*CAROUSEL MOBILE*/
+
+.carousel-mobile {
+  display: none;
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 60px;
 }
 
-.carousel-control.right {
-  margin-right: 5em;
+.carousel-mobile p, .carousel-mobile h3 {
+  padding: 0 4em;
 }
-*/
+
+.carousel-mobile hr {
+  width: 25%;
+  text-align: center;
+}
+
+.mproject {
+  margin-bottom: 3em;
+}
+
+
+
+
+
+
 
 
 /*SERVICES*/
 
+/*fonts*/
+#services h1 {
+  color: white;
+}
+
+#services h2 {
+  color: white;
+}
+
+#services p {
+  color: white;
+}
+
+/**/
+
 #services {
   padding-bottom: 7em;
-  padding-top: 8em;
-  background-color: lightblue;
+  padding-top: 7em;
+  background-image: url("../imgs/action.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top;
   width: 100%;
 }
 
@@ -203,7 +270,7 @@ h1 {
   text-align: center;
 }
 
-.row hr {
+.row hr, hr {
   width: 40%;
 }
 
@@ -215,50 +282,36 @@ h1 {
 
 
 
-/*QUOTE*/
-
-#quote {
-  margin-top: 5em;
-  margin-bottom: 5em;
-  width: 75%;
-}
-
-.quoteanchor.container {
-  background-color: orange;
-}
-
-.quoteanchor {
-  text-align: center;
-}
-
-.quote1 {
-  margin-bottom: 5em;
-}
-
-.quoteanchor p {
-  font-style: italic;
-  margin-top: 2em;
-}
-
 /*THE TEAM*/
+
+/*fonts*/
+#theteam h1 {
+  color: white;
+}
+#theteam h2 {
+  color: white;
+}
+#theteam p {
+  color: lightgray;
+}
+
+/**/
 
 #theteam {
   padding-top: 5em;
   padding-bottom: 6em;
-  background-color: lightgray;
+  background-image: url("../imgs/designs/moulin.png");
 }
-
 .pleft {
-  text-align: center;
-  margin-bottom: 8em;
-  width: 40%;
-  float: left;
+  text-align: left;
+  margin-bottom: 2em;
+  width: 70%;
 }
 
 .pright {
-  text-align: center;
+  text-align: right;
   margin-bottom: 2em;
-  width: 40%;
+  width: 70%;
   float: right;
 }
 
@@ -275,10 +328,61 @@ h1 {
   margin-bottom: 1.5em;
 }
 
+
+
+
+/*QUOTE*/
+
+#quote {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width: 75%;
+}
+
+
+
+.quoteanchor {
+  color: white;
+  background-image: url("../imgs/noisycomp.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+}
+
+.quoteanchor {
+  text-align: center;
+}
+
+.quote1 {
+  margin-bottom: 5em;
+}
+
+.quoteanchor p {
+  font-style: italic;
+  margin-top: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*CLIENTS*/
 
+#client img:hover {
+  opacity: 0.5;
+}
+
 #clients {
-  background-color: yellow;
+  background-image: url("../imgs/designs/whitediamond.png");
   text-align: center;
 }
 
@@ -286,26 +390,39 @@ h1 {
   width: 100%
 }
 
+#clients img {
+  width: 100%;
+}
+
+
 
 
 
 /*CONTACT*/
+/*fonts*/
+#contact h1 {
+  margin: 0 auto 1em auto;
+  color: white;
+}
+
+#contact p {
+  color:white;
+}
 
 #contact {
   padding-bottom: 3em;
   padding-top: 7em;
-  background-color: green;
+    background-image: url("../imgs/blur.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top;
   width: 100%;
   text-align: center;
 }
 
-#contact p {
 
-}
-
-#contact h1 {
-  margin: 0 auto 1em auto;
-}
 
 form {
   width: 500px;
@@ -316,7 +433,7 @@ form {
   margin-bottom: 10px;
   display: inline;
   border-radius: 0px;
-  box-shadow: 1px 1px 1px #888888
+  box-shadow: 1px 1px 1px #888888;
 }
 
 .inlineleft {
@@ -342,7 +459,8 @@ form {
 
 .footer {
   height: 130px;
-  background-color: orange;
+  background-color: #F8F8F8;
+  box-shadow: 1px 1px 1px #888888;
 }
 
 .footer .text-muted {
@@ -356,6 +474,11 @@ footer p {
   text-align: center;
   font-size: 0.8em;
 }
+
+
+
+
+
 
 /*MOBILE*/
 
@@ -372,12 +495,26 @@ footer p {
     display: none;
   }
 
+  .carouselcontainer {
+/*  padding: 5em 3em;
+  background-color: gray !important;
+  min-width: 10px;
+  width: 100%;*/
+  display: none;
+}
+
   .col-sm-5 {
     width: 90%;
   }
 
   .carousel-control.left, .carousel-control.right {
     display: none;
+  }
+
+  .carousel-mobile {
+    display: block;
+    background-image: url("../imgs/designs/moulin.png");
+
   }
 
 }
@@ -390,7 +527,6 @@ footer p {
   margin-bottom: 5em;
   width: 100%;
 }
-
 .pright {
   text-align: right;
   width: 100%;
@@ -400,5 +536,9 @@ footer p {
     padding: 4em 2em;
     width: 100%;
     background-color: lightgray;
+  }
+
+  .postintro {
+    width: 100%
   }
 }
