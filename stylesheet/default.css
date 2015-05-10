@@ -117,15 +117,15 @@ h1 {
 
 /*fonts*/
 .carouselcontainer h1, .carousel-mobile h1 {
-  color: white;
+  color: black;
 }
 
 #myCarousel h3, .carousel-mobile h3 {
-  color: white;
+  color: black;
 }
 
 #myCarousel p, .carousel-mobile p {
-  color: white;
+  color: black;
 }
 
 /**/
@@ -134,8 +134,10 @@ h1 {
 
 .carouselcontainer {
   padding: 5em 3em;
-  background-image: url("../imgs/designs/moulin.png");
+  /*background-image: url("../imgs/designs/moulin.png");*/
   min-width: 1000px;
+  /*background-color: #1A2B39;*/
+  background-image: url("../imgs/designs/whitediamond.png");
 }
 
 #myCarousel {
@@ -286,10 +288,10 @@ h1 {
 
 /*fonts*/
 #theteam h1 {
-  color: white;
+  color: black;
 }
 #theteam h2 {
-  color: white;
+  color: black;
 }
 #theteam p {
   color: lightgray;
@@ -300,7 +302,8 @@ h1 {
 #theteam {
   padding-top: 5em;
   padding-bottom: 6em;
-  background-image: url("../imgs/designs/moulin.png");
+  /*background-image: url("../imgs/designs/moulin.png");*/
+  background-image: url("../imgs/designs/whitediamond.png");
 }
 .pleft {
   text-align: left;
