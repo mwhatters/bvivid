@@ -248,6 +248,7 @@ li a:hover, li a:focus {
 #myCarousel {
   margin: 0 auto;
   max-width: 1100px;
+  min-height: 450px;
 }
 
 .item{
@@ -424,17 +425,31 @@ li a:hover, li a:focus {
 .pleft {
   text-align: left;
   margin-bottom: 2em;
-  width: 70%;
+  /*width: 70%;*/
 }
 
 .pright {
   text-align: right;
   margin-bottom: 2em;
-  width: 70%;
+  /*width: 70%;*/
   float: right;
 }
 
+#theteam img {
+  height: 300px;
+  border: 4px solid #ECDBCA;
+}
 
+.pright img {
+  float: left;
+  margin: 2em 1em 0 0;
+
+}
+
+.pleft img {
+  float: right;
+  margin: 4em 0 1em 4em;
+}
 
 
 
@@ -613,6 +628,16 @@ footer p {
 }
 
 
+/*THE TEAM*/
+
+@media screen and (max-width: 550px) {
+  #theteam img {
+    display: none;
+  }
+}
+
+
+/*CONTACT*/
 @media screen and (max-width: 520px) {
   form {
     width: 100%;
